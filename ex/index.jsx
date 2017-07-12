@@ -7,7 +7,7 @@ import Field from './field'
 import FieldReducer from './fieldReducer'
 
 const reducers = combineReducers({
-    field: () => FieldReducer
+    field: FieldReducer
 })
 
 ReactDom.render(
